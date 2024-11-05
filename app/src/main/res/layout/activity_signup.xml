@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/background_image"
+    tools:context=".SignUpActivity">
+
+    <!-- Sign-Up Title -->
+<TextView
+android:id="@+id/signupTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Create Account"
+android:textSize="30sp"
+android:textColor="@android:color/black"
+android:layout_marginBottom="50dp" />
+
+    <!-- Name Input Field -->
+<EditText
+android:id="@+id/nameInput"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Name"
+android:textSize="22dp"
+android:inputType="textPersonName"
+android:textColor="@android:color/white"
+android:textColorHint="@android:color/darker_gray"
+android:layout_marginBottom="20dp"
+android:backgroundTint="@android:color/white"/>
+
+    <!-- Email Input Field -->
+<EditText
+android:id="@+id/emailInput"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Email"
+android:textSize="22dp"
+android:inputType="textEmailAddress"
+android:textColor="@android:color/white"
+android:textColorHint="@android:color/darker_gray"
+android:layout_marginBottom="20dp"
+android:backgroundTint="@android:color/white"/>
+
+    <!-- Password Input Field -->
+<EditText
+android:id="@+id/passwordInput"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:textSize="22dp"
+android:inputType="textPassword"
+android:textColor="@android:color/white"
+android:textColorHint="@android:color/darker_gray"
+android:layout_marginBottom="20dp"
+android:backgroundTint="@android:color/white"/>
+
+    <!-- Confirm Password Input Field -->
+<EditText
+android:id="@+id/confirmPasswordInput"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Confirm Password"
+android:textSize="22dp"
+android:inputType="textPassword"
+android:textColor="@android:color/white"
+android:textColorHint="@android:color/darker_gray"
+android:layout_marginBottom="20dp"
+android:backgroundTint="@android:color/white"/>
+
+    <!-- Sign Up Button -->
+<Button
+android:id="@+id/signupButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Sign Up"
+android:textColor="@android:color/white"
+android:backgroundTint="@color/purple_500"
+    android:background="@drawable/glass_button"/>
+
+    </LinearLayout>

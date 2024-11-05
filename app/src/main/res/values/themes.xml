@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.ELearning" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your app theme -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+
+    <!-- Custom Theme for SignUpActivity -->
+    <style name="SignUpTheme" parent="Theme.ELearning">
+        <!-- Customize the SignUp activity theme -->
+        <item name="android:textColor">@android:color/white</item> <!-- Default text color -->
+        <item name="android:buttonStyle">@style/SignUpButtonStyle</item> <!-- Custom button style -->
+        <item name="android:editTextStyle">@style/SignUpEditTextStyle</item> <!-- Custom EditText style -->
+    </style>
+
+    <!-- Custom button style -->
+    <style name="SignUpButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Custom EditText style -->
+    <style name="SignUpEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item> <!-- Use this for hint text color -->
+        <item name="android:backgroundTint">@android:color/white</item>
+    </style>
+</resources>
